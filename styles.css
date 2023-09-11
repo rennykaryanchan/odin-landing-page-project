@@ -1,0 +1,201 @@
+/* Font Definitions */
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Apply the Roboto font as the global font family */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    /* Add any additional styling for the body */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav styling */
+.top-nav {
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    display: flex;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.nav-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hero styling */
+.hero {
+    display: flex;
+    padding: 20px 100px 100px 100px;
+    background-color: #1F2937;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    width: 500px;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    margin: 0;
+    flex: 1;
+}
+
+.hero h2 {
+    width: 500px;
+    margin: 0;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-weight: lighter;
+    flex: 1;
+}
+
+.hero img {
+    flex: 1;
+    width: 400px;
+    height: auto;
+}
+
+.hero button {
+    display: block;
+    margin-top: 10px;
+    background-color:#3882f6;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    flex: 0;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+/* Subsection */
+.subsection {  
+    display: flex;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subsection h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+.content img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.content p {
+    color: #1F2937;
+}
+
+/* quote box section */
+
+.quote-section {
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: space-around;
+    color: #1F2937;
+}
+
+.box {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: left;
+}
+
+.author {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: right;
+}
+
+/* cta section */
+.cta-section {
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+}
+
+.cta-banner {
+    display: flex;
+    width:1000px;
+    height: 100px;
+    padding: 0px 100px 0px 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-banner h3 {
+    padding: 0px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #FFF;;
+}
+.cta-banner button {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    background-color:#3882f6;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    flex: 0;
+    box-sizing: border-box;
+}
